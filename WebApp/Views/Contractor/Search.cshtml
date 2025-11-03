@@ -1,0 +1,30 @@
+﻿@using BL.Constants
+@model WebApp.ViewModels.SearchVm
+
+@{
+
+    if (User.IsInRole( Roles.Admin))
+    {
+        Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    }
+    else if (User.IsInRole(Roles.User))
+    {
+        Layout = "~/Views/Shared/_UserLayout.cshtml";
+    }
+}
+
+@{
+    if (User.IsInRole(Roles.Admin))
+    {
+        @Html.Partial("_AdminSection")
+    }
+    else if (User.IsInRole(Roles.CompanyAdmin) 
+        || User.IsInRole(Roles.Freelancer))
+    {
+        @Html.Partial("_ContractorSection")
+    }
+    else
+    {
+        @Html.Partial("_UserSection")
+    }
+}

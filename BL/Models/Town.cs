@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace BL.Models;
+
+public partial class Town
+{
+    public int Id { get; set; }
+
+    public string Name { get; set; } = null!;
+
+    public int CountryId { get; set; }
+
+    public virtual Country Country { get; set; } = null!;
+
+    public virtual ICollection<Location> Locations { get; set; } = new List<Location>();
+}

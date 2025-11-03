@@ -1,0 +1,108 @@
+﻿@model WebApp.ViewModels.EditContractorVm
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>EditContractorVm</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" method="post">
+
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                @Html.HiddenFor(model => model.Person.Id)
+            </div>
+
+
+
+            <div class="form-group">
+                <label asp-for="Person.FirstName" class="control-label"></label>
+                <input asp-for="Person.FirstName" class="form-control" />
+                <span asp-validation-for="Person.FirstName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Person.LastName" class="control-label"></label>
+                <input asp-for="Person.LastName" class="form-control" />
+                <span asp-validation-for="Person.LastName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Person.Email" class="control-label"></label>
+                <input asp-for="Person.Email" class="form-control" />
+                <span asp-validation-for="Person.Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Person.Phone" class="control-label"></label>
+                <input asp-for="Person.Phone" class="form-control" />
+                <span asp-validation-for="Person.Phone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Person.Username" class="control-label"></label>
+                <input asp-for="Person.Username" class="form-control" />
+                <span asp-validation-for="Person.Username" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Person.Password" class="control-label"></label>
+                <input asp-for="Person.Password" class="form-control" type="password" />
+                <span asp-validation-for="Person.Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CompanyName" class="control-label"></label>
+                <input asp-for="CompanyName" class="form-control" />
+                <span asp-validation-for="CompanyName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="JobTypeName" class="control-label"></label>
+                <input asp-for="JobTypeName" class="form-control" />
+                <span asp-validation-for="JobTypeName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsFreelancer" /> @Html.DisplayNameFor(model => model.IsFreelancer)
+                </label>
+            </div>
+
+            
+            <hr />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Search">Back to List</a>
+</div>
+
+<div class="modal fade" id="addLocationModal" tabindex="-1" aria-labelledby="addLocationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addLocationModalLabel">Add New Location</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            @await Html.PartialAsync("_CreateLocationModal", new WebApp.ViewModels.CreateLocationVm())
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

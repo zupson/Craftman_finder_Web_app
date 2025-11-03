@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|c:\\users\\marko\\onedrive - algebra\\marko-zupan-craftsmanfinderapp\\webapp\\views\\user\\adminprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\user\\adminprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785E5976-04E5-436C-9D53-8DC1DD22C666}|BL\\BL.csproj|c:\\users\\marko\\onedrive - algebra\\marko-zupan-craftsmanfinderapp\\bl\\dtos\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785E5976-04E5-436C-9D53-8DC1DD22C666}|BL\\BL.csproj|solutionrelative:bl\\dtos\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|c:\\users\\marko\\onedrive - algebra\\marko-zupan-craftsmanfinderapp\\webapp\\automapper\\personmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|solutionrelative:webapp\\automapper\\personmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|c:\\users\\marko\\onedrive - algebra\\marko-zupan-craftsmanfinderapp\\webapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785E5976-04E5-436C-9D53-8DC1DD22C666}|BL\\BL.csproj|c:\\users\\marko\\onedrive - algebra\\marko-zupan-craftsmanfinderapp\\bl\\automapper\\personmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785E5976-04E5-436C-9D53-8DC1DD22C666}|BL\\BL.csproj|solutionrelative:bl\\automapper\\personmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|c:\\users\\marko\\onedrive - algebra\\marko-zupan-craftsmanfinderapp\\webapp\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|c:\\users\\marko\\onedrive - algebra\\marko-zupan-craftsmanfinderapp\\webapp\\views\\shared\\_contractorlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_contractorlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|c:\\users\\marko\\onedrive - algebra\\marko-zupan-craftsmanfinderapp\\webapp\\views\\contractor\\_adminsection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\contractor\\_adminsection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|c:\\users\\marko\\onedrive - algebra\\marko-zupan-craftsmanfinderapp\\webapp\\views\\jobpost\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\jobpost\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|c:\\users\\marko\\onedrive - algebra\\marko-zupan-craftsmanfinderapp\\webapp\\viewmodels\\contractorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\contractorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|c:\\users\\marko\\onedrive - algebra\\marko-zupan-craftsmanfinderapp\\webapp\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|c:\\users\\marko\\onedrive - algebra\\marko-zupan-craftsmanfinderapp\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|c:\\users\\marko\\onedrive - algebra\\marko-zupan-craftsmanfinderapp\\webapp\\views\\contractor\\_createlocationmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\contractor\\_createlocationmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|c:\\users\\marko\\onedrive - algebra\\marko-zupan-craftsmanfinderapp\\webapp\\views\\contractor\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6E39536-01F4-4BAC-9BC3-8A9E4174ACC2}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\contractor\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 375,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAQwKAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T20:55:31.691Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\AutoMapper\\PersonMappingProfile.cs",
+              "RelativeDocumentMoniker": "WebApp\\AutoMapper\\PersonMappingProfile.cs",
+              "ToolTip": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\AutoMapper\\PersonMappingProfile.cs",
+              "RelativeToolTip": "WebApp\\AutoMapper\\PersonMappingProfile.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T22:54:59.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\BL\\AutoMapper\\PersonMappingProfile.cs",
+              "RelativeDocumentMoniker": "BL\\AutoMapper\\PersonMappingProfile.cs",
+              "ToolTip": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\BL\\AutoMapper\\PersonMappingProfile.cs",
+              "RelativeToolTip": "BL\\AutoMapper\\PersonMappingProfile.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T22:26:57.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonDto.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\BL\\Dtos\\PersonDto.cs",
+              "RelativeDocumentMoniker": "BL\\Dtos\\PersonDto.cs",
+              "ToolTip": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\BL\\Dtos\\PersonDto.cs",
+              "RelativeToolTip": "BL\\Dtos\\PersonDto.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAowGgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T22:26:12.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\User\\AdminProfile.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\User\\AdminProfile.cshtml",
+              "ToolTip": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\User\\AdminProfile.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\User\\AdminProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T21:55:23.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\JobPost\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\JobPost\\Create.cshtml",
+              "ToolTip": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\JobPost\\Create.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\JobPost\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T21:11:07.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_AdminSection.cshtml",
+              "DocumentMoniker": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\Contractor\\_AdminSection.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Contractor\\_AdminSection.cshtml",
+              "ToolTip": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\Contractor\\_AdminSection.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Contractor\\_AdminSection.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T20:55:12.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ContractorVm.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\ViewModels\\ContractorVm.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\ContractorVm.cs",
+              "ToolTip": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\ViewModels\\ContractorVm.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\ContractorVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T21:29:20.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ContractorLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\Shared\\_ContractorLayout.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_ContractorLayout.cshtml",
+              "ToolTip": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\Shared\\_ContractorLayout.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Shared\\_ContractorLayout.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T21:07:31.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_CreateLocationModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\Contractor\\_CreateLocationModal.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Contractor\\_CreateLocationModal.cshtml",
+              "ToolTip": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\Contractor\\_CreateLocationModal.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Contractor\\_CreateLocationModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T21:07:02.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\Contractor\\Search.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Contractor\\Search.cshtml",
+              "ToolTip": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\Contractor\\Search.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Contractor\\Search.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T20:56:43.119Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "19f5b9b7-4397-48db-8404-e27956c876af",
+        "Display": 0,
+        "X": 28,
+        "Y": 134,
+        "Width": 1342,
+        "Height": 834,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T20:57:31.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T20:58:19.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_UserLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\Shared\\_UserLayout.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_UserLayout.cshtml",
+              "ToolTip": "C:\\Users\\marko\\OneDrive - Algebra\\Marko-Zupan-CraftsmanFinderApp\\WebApp\\Views\\Shared\\_UserLayout.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Shared\\_UserLayout.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T20:57:42.941Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

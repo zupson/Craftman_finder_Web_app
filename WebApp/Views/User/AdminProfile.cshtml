@@ -1,0 +1,68 @@
+﻿@model WebApp.ViewModels.AdminProfileVm
+<div class="d-flex justify-content-center align-items-center ">
+    <div class="d-flex flex-column" style="width:50%;">
+        <h2>Profil</h2>
+        <hr />
+        <form id="profileForm">
+            <div class="mb-3">
+                <label for="FirstName" class="form-label">First name</label>
+                <input type="text" class="form-control" id="FirstName" name="FirstName" value="@Model.FirstName" />
+            </div>
+
+            <div class="mb-3">
+                <label for="LastName" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="LastName" name="LastName" value="@Model.LastName" />
+            </div>
+
+            <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="Email" name="Email" value="@Model.Email" />
+            </div>
+
+            <div class="mb-3">
+                <label for="Phone" class="form-label">Phone</label>
+                <input type="text" class="form-control" id="Phone" name="Phone" value="@Model.Phone" />
+            </div>
+
+            <div class="mb-3">
+                <label for="Username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="Username" name="Username" value="@Model.Username" />
+            </div>
+
+            <button type="button" id="saveBtn" class="btn btn-primary">Spremi promjene</button>
+        </form>
+        <div id="message"></div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $("#saveBtn").click(
+        function(e){
+        var data = $("#profileForm").serialize();//skuplja sve podatke iz forme
+        e.preventDefault();
+        $.ajax(
+            {
+                url: '@Url.Action("UpdateAdminProfile", "User")',
+                type: 'POST',
+                data: data,
+                success: function(response){
+                    if(response.success){
+                        $("#message").text(response.message).css("color", "green");
+                    }else{
+                        $("#message").text(response.message).css("color", "red");
+                    }
+
+                    // hide after 3 seconds
+                    setTimeout(function(){
+                        $("#message").fadeOut();
+                    }, 1000);
+                },
+                error: function(){
+                    $("#message").text("Doslo je do pogreske").css("color", "red");
+                }
+
+            }
+        )
+    });
+</script>

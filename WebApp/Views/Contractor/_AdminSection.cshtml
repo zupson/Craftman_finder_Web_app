@@ -1,0 +1,199 @@
+﻿@using BL.Constants
+@model WebApp.ViewModels.SearchVm
+
+<div class="container d-flex justify-content-center">
+
+    <div class="col-md-12">
+
+        <h1 class="mb-4">List of Contractors</h1>
+
+        <p class="mb-4">
+            <a asp-controller="Contractor" asp-action="Create" class="btn btn-success btn-lg">
+                <i class="bi bi-plus-lg"></i> Create New
+            </a>
+        </p>
+
+        <form class="align-content-center mb-4" asp-action="Search" method="GET">
+
+            <div class="row">
+
+                <div class="col-4">
+                    <input asp-for="Q" class="form-control" placeholder="Search contractor" />
+                </div>
+
+                <div class="col-auto">
+                    <label class="form-label mt-1">Sort by:</label>
+                </div>
+
+                <div class="col-auto">
+                    <select asp-for="OrderBy" class="form-select">
+                        <option value="id">(default)</option>
+                        <option value="createdat">First name</option>
+                        <option value="lastname">Last name</option>
+                        <option value="jobtypename">Job type name</option>
+                        <option value="companyname">Company name</option>
+                        <option value="postalcode">Postal code</option>
+                        <option value="townname">Town name</option>
+                        <option value="countryname">Country name</option>
+                    </select>
+                </div>
+
+                <div class="col-auto">
+                    <select asp-for="Size" class="form-select">
+                        <option>3</option>
+                        <option>5</option>
+                        <option>10</option>
+                    </select>
+                </div>
+
+                <div class="col-auto">
+                    <input type="submit" value="Search" name="submit" class="btn btn-primary" />
+                </div>
+            </div>
+        </form>
+
+        <hr class="mb-4" />
+        <table class="table mb-4">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Contractors.FirstOrDefault().CompanyName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Contractors.FirstOrDefault().Person.FirstName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Contractors.FirstOrDefault().Person.LastName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Contractors.FirstOrDefault().JobTypeName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Contractors.FirstOrDefault().Locations[0].PostalCode)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Contractors.FirstOrDefault().Locations[0].TownName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Contractors.FirstOrDefault().Locations[0].CountryName)
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model.Contractors)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CompanyName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Person.FirstName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Person.LastName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.JobTypeName)
+                        </td>
+                        <td>
+                            @foreach (var loc in item.Locations)
+                            {
+                                <option value="@loc.Id"> @loc.PostalCode</option>
+                            }
+                        </td>
+                        <td>
+                            @foreach (var loc in item.Locations)
+                            {
+                                <option value="@loc.Id"> @loc.TownName</option>
+                            }
+                        </td>
+                        <td>
+                            @foreach (var loc in item.Locations)
+                            {
+                                <option value="@loc.Id"> @loc.CountryName</option>
+                            }
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", "Contractor",
+                                new { id = item.Id },
+                                new { @class = "btn btn-primary px-4" })
+
+                            @Html.ActionLink("Details", "Details", "Contractor", 
+                                new { id = item.Id }, 
+                                new { @class = "btn btn-outline-secondary px-4 me-2" }
+                            )
+
+                            @Html.ActionLink("Delete", "Delete", "Contractor",
+                                new { id = item.Id },
+                                new { @class = "btn btn-danger px-4" })
+                        </td>
+                </tr>
+                }
+
+            </tbody>
+        </table>
+
+        <nav class="mb-4">
+            <ul class="pagination">
+                <li class="page-item @(Model.Page == 1 ? "disabled" : "")">
+                    @if (Model.Page == 1)
+                    {
+                        <span class="page-link">«</span>
+                    }
+                    else
+                    {
+                        @Html.ActionLink("«", "Search", 
+                        new {
+                            Q = Model.Q,
+                            OrderBy = Model.OrderBy,
+                            Page = Model.Page - 1,
+                            Size = Model.Size },
+                            new { 
+                                @class = "page-link" 
+                            }
+                        )
+                    }
+                </li>
+
+                @for (int i = Model.FromPager; i <= Model.ToPager; i++)
+                {
+                    var linkClass = i == Model.Page ? "page-item active" : "page-item";
+                    <li class="@linkClass">
+                        @Html.ActionLink(i.ToString(), "Search", 
+                        new {
+                            Q = Model.Q,
+                            OrderBy = Model.OrderBy,
+                            Page = i,
+                            Size = Model.Size },
+                            new { 
+                                @class = "page-link" 
+                            }
+                        )
+                    </li>
+                }
+
+                <li class="page-item @(Model.Page == Model.LastPage ? "disabled" : "")">
+                    @if (Model.Page == Model.LastPage)
+                    {
+                        <span class="page-link">»</span>
+                    }
+                    else
+                    {
+                        @Html.ActionLink("»", "Search", 
+                        new {
+                            Q = Model.Q,
+                            OrderBy = Model.OrderBy,
+                            Page = Model.Page + 1,
+                            Size = Model.Size },
+                            new { 
+                                @class = "page-link" 
+                            }
+                        )
+                    }
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+</div>
